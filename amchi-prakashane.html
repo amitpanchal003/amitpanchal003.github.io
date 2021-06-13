@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+
+    <link rel="stylesheet" href="assets/css/modal-video.min.css">
+
+    <link rel="stylesheet" href="assets/fonts/flaticon.css">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Findo - Fundraising and Charity HTML Template</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+   <style>
+       .bg-holder {
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
+  padding-top: 25%;
+}
+
+.bg-holder .content {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.pic1 {
+  background-image: url("https://raw.githubusercontent.com/aentan/Parallax-Scroll/master/demo/img/pic1.jpg");
+}
+
+.pic2 {
+  background-image: url("https://raw.githubusercontent.com/aentan/Parallax-Scroll/master/demo/img/pic2.jpg");
+}
+
+.pic3 {
+  background-image: url("https://raw.githubusercontent.com/aentan/Parallax-Scroll/master/demo/img/pic3.jpg");
+}
+
+@media (min-width: 768px) {
+  .pic1 {
+    background-image: url("https://raw.githubusercontent.com/aentan/Parallax-Scroll/master/demo/img/pic1_bigger.jpg");
+  }
+  .pic2 {
+    background-image: url("https://raw.githubusercontent.com/aentan/Parallax-Scroll/master/demo/img/pic2_bigger.jpg");
+  }
+  .pic3 {
+    background-image: url("https://raw.githubusercontent.com/aentan/Parallax-Scroll/master/demo/img/pic3_bigger.jpg");
+  }
+}
+
+/* Content Sections */
+
+section {
+  padding: 48px;
+}
+
+section .content {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.content h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+section p {
+  margin: 0;
+}
+
+section p + p {
+  text-indent: 2em;
+}
+
+section + hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  height: 0;
+}
+
+section .gist {
+  margin: 24px 0;
+}
+
+section .gist .gist-data {
+  border-bottom: 0;
+}
+
+section .gist-meta {
+  display: none;
+}
+
+.content code {
+  font-family: monospace, serif;
+  font-size: 16px;
+  color: gray;
+  white-space: nowrap;
+}
+
+/* Intro */
+
+.intro h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.intro p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.cta {
+  margin-top: 32px;
+}
+
+.btn-cta {
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+.btn-cta:hover {
+  background-color: white;
+  color: #228b22;
+  text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+}
+
+.social {
+  margin: 16px;
+  list-style: none;
+}
+
+.social li {
+  display: inline-block;
+  margin: 8px;
+}
+
+   </style>
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="pre-box-one">
+                    <div class="pre-box-two"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+    <div class="navbar-area sticky-top">
+
+      <div class="mobile-nav">
+          <a href="index.html" class="logo">
+              <img src="assets/img/stree-adhar-kenrda-logo.png" alt="stree adhar kendra">
+          </a>
+      </div>
+
+      <div class="main-nav">
+          <div class="container">
+              <nav class="navbar navbar-expand-md navbar-light">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="assets/img/stree-adhar-kenrda-logo.png" alt="stree adhar kendra">
+                  </a>
+                  <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a href="index.html" class="nav-link  active">मुखपृष्ठ
+                     
+                                      </a>
+                              
+                          </li>
+                          <li class="nav-item">
+                              <a href="history.html" class="nav-link dropdown-toggle">
+                                  आमच्याबद्दल
+                               <i
+                                      class="icofont-simple-down"></i></a>
+                              <ul class="dropdown-menu">
+                                 
+                                  <li class="nav-item">
+                                      <a href="history.html" class="nav-link">इतिहास</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="history.html" class="nav-link">सर्वांसाठी समानता न्याय</a>
+                                  </li>
+                                 
+                                  
+                              </ul>
+                          </li>
+                          <li class="nav-item">
+                              <a href="work.html" class="nav-link dropdown-toggle">
+                                  कार्यक्रम
+                               <i
+                                      class="icofont-simple-down"></i></a>
+                              <ul class="dropdown-menu">
+                                 
+                                  <li class="nav-item">
+                                      <a href="work.html" class="nav-link">स्त्री शोषणाविरुद्ध आवाज</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="work.html" class="nav-link">स्त्रियांना मुख्य प्रवाहात आणणं</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="work.html" class="nav-link">आपतग्रस्त महिलांसाठी विशेष सहकार्य</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="work.html" class="nav-link">महिला सक्षमीकरण</a>
+                                  </li>
+                                  
+                                 
+                                  
+                              </ul>
+                          </li>
+                          <li class="nav-item">
+                              <a href="amchi-prakashane.html" class="nav-link dropdown-toggle"> आमची प्रकाशने 
+                                     </a>
+                              
+                          </li>
+                          <li class="nav-item">
+                              <a href="prakalp.html" class="nav-link dropdown-toggle">प्रकल्प <i
+                                      class="#"></i></a>
+                              
+                          </li>
+                          <li class="nav-item">
+                              <a href="avahan.html" class="nav-link dropdown-toggle">आव्हान <i
+                                      class="#"></i></a>
+                              
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-link">संपर्क साधा</a>
+                          </li>
+                      </ul>
+                     
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </div>
+
+    
+
+    <div class="bg-holder pic1" data-width="1024" data-height="768">
+        <div class="content intro">
+          <h1>आमची प्रकाशाने</h1>
+          <p>...............</p>
+          
+        </div>
+      </div>
+      
+      <section>
+        <div class="content">   
+          <p>
+            राज्यातल्या छोट्यामोठ्या महिला गटांना स्त्री आधार केंद्रानं केलेल्या कामांची माहिती कळावी तसंच इतरही अनेक उपयुक्त माहिती या महिलांना कळावी या हेतूने स्त्री आधार केंद्राने मुद्रित तसंच दृक - श्राव्य माध्यामातून काही साहित्य प्रकाशित केलं आहे. त्यापैकी प्रमुख प्रकाशानं अशी आहेत :
+
+
+            वार्तापत्र :
+            महिला विकासाशी तसंच महिलांच्या सर्व प्रश्नांशी निगडीत अनेक विषय या वार्तापत्रामधे हाताळले जातात. महिलांवरील अत्याचारा संदर्भातले खटले, त्यांची पार्श्वभूमी आणि न्याय मिळवण्यासाठी केलेला झगडा या सगळ्याबद्दल या वार्तापत्रांमधून सातत्याने माहिती दिली जाते. मराठीतून प्रकाशित होणाऱ्या या वृत्तपत्राच्या एक ते दीड हजार प्रतींचे वितरण तळागाळातले कार्यकर्ते, स्वयंसेवक, महिला बचत गट, इतर स्वयंसेवी गट, समाजसेवी संस्था, सरकारी संस्था, सरकारी प्रतिनिधी, राजकीय नेते, पत्रकार, वकील इत्यादींमधे केलं जाते.
+            
+            
+            वार्षिक अंक :
+            स्त्री आधार केंद्रातर्फे आम्ही स्त्रिया हा वार्षिक अंक दरवर्षी ऑक्टोबर महिन्यात प्रकाशित केला जातो. एखाद्या विशिष्ट संकल्पनेवरील विषयाला वाहिलेला हा अंक आहे. गेल्या काही वर्षात या अंकात हाताळलेले विषय असे होते :
+            
+            १) आंतरराष्ट्रीय महिला सक्षमीकरणाच्या तुलनेत भारतीय महिलांचे स्थान
+            २) स्त्रियांवरील अत्याचार
+            ३) निर्णयप्रकियेत स्त्रियांचा सहभाग
+            
+            स्त्रियांची मनोगतं आणि केस स्टडीजचा समावेश असलेल्या या अंकाचा वाचकवर्ग जवळपास २००० च्या आसपास आहे. पुस्तिका :
+            स्त्री आधार केंद्राने सोप्या मराठी भाषेमधे काही पुस्तिका प्रकाशित केल्या आहेत. त्यात चित्रांचा आणि गोष्टीरूपाने दिलेल्या केस स्टडीजचा समावेश असल्याने ग्रामीण भागातील अल्पशिक्षित महिलाही त्या आनंदाने वाचू शकतील. त्यातील काही महत्वाच्या पुस्तिका अशा :
+            
+            
+            सरकार म्हणजे काय ?
+            ग्रामीण पातळीपासून केंद्रीय पातळीवर सरकार काय आणि कसं काम करतं याविषयी या पुस्तिकेत माहिती आहे. सरकारची विविधं कामं, निवडणूक प्रक्रिया, निवडणुकीला उभ्या असलेल्या उमेदवाराची पात्रता आणि त्याच्या अधिकारात स्थानिक, राज्य आणि केंद्र पातळीवर कोणती कामं येऊ शकतात याबद्दलची माहिती या पुस्तिकेत आहे. याशिवाय निरनिराळ्या संकटांमद्ये, घटनांमद्ये सरकारकडून मिळणाऱ्या अर्थ सहाय्यासंदर्भातदेखील यात माहिती आहे.
+            
+            
+            
+          </p>
+          
+        </div>
+      </section>
+      
+      <div class="bg-holder pic2" data-width="1024" data-height="768">
+        <div class="content">
+          <h2></h2>
+          <p>Markup</p>
+        </div>
+      </div>
+      
+      <section>
+        <div class="content">
+          <p>
+            संघटना कशी उभी करावी?
+            संघटनकौशल्य म्हणजे काय, लोकांना एकत्र कसं आणावं, एकत्रितपणे काम करताना कोणत्या गोष्टी पाळाव्यात, कोणत्या टाळाव्यात याबद्दल या पुस्तिकेत माहिती आहे.
+            
+            
+            सरकारी कल्याणकारी योजना :
+            सरकारच्या विविध कल्याणकारी योजना, त्याचे हेतू, फायदे, त्यासाठी अर्ज कसे करावेत, या योजनांसाठी पात्रतेचे निकष, सरकारी अनुदानं, कर्ज वगैरेंबद्दल विस्तृत माहिती या पुस्तिकेत दिलेली आहे.
+            
+            
+            स्त्रिया आणि कायदा :
+            स्त्रियांसाठी असलेल्या अनेक कायद्यांविषयी या पुस्तकेत माहिती आहे. तसच ज्या खटल्यांमुळे स्त्रियांच्या विकासाच्या प्रक्रियेत काही मूलभूत बदल झाले, अशा खटल्यांविषयीही सविस्तर माहिती या पुस्तकेत आहे.
+            
+            
+            पुस्तक :
+            गनारीपर्व : स्त्री आधार केंद्राच्या संचालक मा. डॉ. नीलमताई गो-हे यांनी निरनिराळ्या वृत्तपत्रांमधून, मासिकांमधून लिहिलेल्या लेखाचे संकलन या पुस्तकात आहे. सामाजिक आणि राजकीय क्षेत्रांत महिलांची प्रगती कशी होत गेली याविषयी या लेखांमधे वाचायला मिळते.
+            
+            
+            पंचायतराज मार्गदर्शक :
+            लोकशाहीच्या राज्यात तळेगावातील महिलांसाठी असलेल्या विविध आरक्षणांसंदर्भात या पुस्तकात माहिती दिलेली आहे.
+            
+            
+            अत्याचारग्रस्त महिलांची मैत्रीण :
+            अन्यायाच्या आणि अत्याचाराच्या विरोधात काम करू इच्छिणाऱ्या प्रत्येकाला मार्गदर्शक ठरवणारे असे हे पुस्तक आहे.
+            
+            
+            नव्या शतकासाठी :
+            लिंगभेदविरहीत समाजव्यवस्था निर्माण करणाऱ्या कार्यकर्त्यांसाठी उपयुक्त सुचना देणारे हे पुस्तक आहे. यासंदर्भातले सरकारी कायदे, धोरणं वगैरेंबद्दलही माहिती आहे.
+          </p>
+        </div>
+      </section>
+      
+      <div class="bg-holder pic3" data-width="1600" data-height="1200">
+        <div class="content">
+          <h2>व्हिडीओ फिल्म्स</h2>
+          <p>........</p>
+        </div>
+      </div>
+      
+      <section>
+        <div class="content">
+          <p>
+            स्त्रियांचे हक्क :
+            स्त्रियांना त्यांच्या मानवी आणि कायदेशीर हक्कांविषयी सतर्क करण्यासाठी ही फिल्म बनवलेली आहे. कोणत्याही प्रकारच्या अन्यायाविरुद्ध लढण्यासाठी स्त्रियांना आवश्यक असलेले कायद्याचे ज्ञान या फिल्मद्वारे त्यांना मिळू शकते. भारतीय घटना, आंतरराष्ट्रीय घटना आणि विविध सरकारी धोरण याविषयीदेखील या फिल्मद्वारे माहिती मिळते.
+          </p>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <section>
+        <div class="content">
+          <h2>Notes</h2>
+          <p>
+            महिला कोर्ट :
+            कोर्टाचे कामकाज कसे चालते याविषयीची ही फिल्म आहे. जळगाव इथे भरलेल्या महिला अधिकार संमेलनात बलात्काराच्या खटल्याची सुनावणी कशी होते, खटला कसा चालवला जातो याविषयी एक नाटिका दाखवली गेली होती. त्यात प्रत्यक्षात खटल्याची सुनावणी कशी होते, पुरावे कसे गोळा केले जातात, आरोपीचे वकिल आरोपीला वाचवण्यासाठी काय युक्त्या - प्रयुक्त्या अवलंबतात, उलट तपासणी कशी होते वगैरें देखवले होते. या फिल्ममधे हेच सगळं चित्रित केलेलं आहे.
+            
+            
+            भूकंपानंतरचा विकास :
+            नैसर्गिक किंवा मानवनिर्मित आपत्तींनंतर होणाऱ्या पुनर्वसनाच्या कामामधे लिंगभेद न करता समानतेने कसे काम करता येते याविषयी या फिल्ममधे माहिती आहे.
+            
+            
+            पंचायतराज :
+            पंचायतराजचं कामकाज कसे चालते, त्यात आपल्याला कसे सहभागी होता येते, त्यातले निर्णयप्रक्रिया कशी चालते हे दाखवणारी ही फिल्म आहे.
+          </p>
+        </div>
+      </section>
+      
+      <hr>
+      
+    
+  
+
+
+   
+     
+  
+
+
+     
+   
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+    
+
+
+   
+
+
+    
+
+
+      <footer class="footer-area pt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <div class="footer-logo">
+                            <a class="logo" href="index.html">
+                                <img src="assets/img/stree-adhar-kenrda-logo.png" alt="Logo">
+                            </a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero, magni est placeat
+                                neque, repellat maxime a dolore</p>
+                            <ul>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="icofont-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="icofont-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="icofont-youtube-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="icofont-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                   
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <div class="footer-links">
+                            <h3>Quick links</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="icofont-simple-right"></i>
+                                        आमच्याबद्दल
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icofont-simple-right"></i>
+                                        कार्यक्रम
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icofont-simple-right"></i>
+                                        आमची प्रकाशने
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icofont-simple-right"></i>
+                                        प्रकल्प
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="icofont-simple-right"></i>
+                                        आव्हान
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <div class="footer-contact">
+                            <h3>Contact info</h3>
+                            <div class="contact-inner">
+                                <ul>
+                                    <li>
+                                        <i class="icofont-location-pin"></i>
+                                        <a href="#">स. नं. १४, घर नं. १४५/१, गणेश नगर, माहेरवाट आश्रमाजवळ,
+                                            वडगाव धायरी, पुणे - ४११०४१ महाराष्ट्र (भारत)</a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont-ui-call"></i>
+                                        <a href="#">०२० - २४३९४१०४</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- <div class="contact-inner">
+                                <ul>
+                                    <li>
+                                        <i class="icofont-location-pin"></i>
+                                        <a href="#">6A, New street, Spain</a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont-ui-call"></i>
+                                        <a href="tel:+548658956">+548-658-956</a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <p>Copyright ©2021. Designed By <a href="#" target="_blank">Demonstar</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="go-top">
+        <i class="icofont-arrow-up"></i>
+        <i class="icofont-arrow-up"></i>
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/form-validator.min.js"></script>
+
+    <script src="assets/js/contact-form-script.js"></script>
+
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <script src="assets/js/jquery.meanmenu.js"></script>
+
+    <script src="assets/js/jquery-modal-video.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/lightbox.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-21041420-11', 'auto');
+      ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+/*
+ *  Parallax-Scroll - v0.2.0
+ *  jQuery plugin for background-attachment: scroll with friction, similar to the parallax scrolling effect on Spotify.
+ *  http://parallax-scroll.aenism.com
+ *
+ *  Made by Aen Tan
+ *  Under MIT License
+ */
+$(function(){$(".bg-holder").parallaxScroll({friction:.5,direction:"vertical"})});
+
+
+
+
+
+
+
+
+
+
+/*
+ *  Parallax-Scroll - v0.2.0
+ *  jQuery plugin for background-attachment: scroll with friction, similar to the parallax scrolling effect on Spotify.
+ *  http://parallax-scroll.aenism.com
+ *
+ *  Made by Aen Tan
+ *  Under MIT License
+ */
+!function(a,b){"function"==typeof define&&define.amd?define(["jquery"],b):b(a.jQuery)}(this,function(a){"use strict";var b,c={friction:.5,direction:"vertical"},d=a(window),e=0;return window.requestAnimationFrame=function(a){var b=(new Date).getTime(),c=Math.max(0,5-(b-e)),d=window.setTimeout(function(){a(b+c)},c);return e=b+c,d},b=function(b,e){return{init:function(){this.$background=a(b),this.settings=a.extend({},c,e),this._initStyles(),this._bindEvents()},_initStyles:function(){this.$background.css({"background-attachment":"scroll"})},_visibleInViewport:function(){var a=d.height(),b=this.$background.get(0).getBoundingClientRect();return b.top<a&&b.bottom>0||b.bottom<=a&&b.top>a},_bindEvents:function(){var a=this;d.on("load scroll resize",function(){a._requestTick()})},_requestTick:function(){var a=this;this.ticking||(this.ticking=!0,requestAnimationFrame(function(){a._updateBgPos()}))},_updateBgPos:function(){if(this._visibleInViewport()){var a=d.width(),b=d.height(),c=this.$background.data("width"),e=this.$background.data("height"),f=c/e,g=this.$background.width(),h=this.$background.height(),i=g/h,j=f>i,k=g/c,l=e*k,m=c*k,n=this.$background.offset().top,o=d.scrollTop(),p=o-n,q=b+l,r=a+m,s=p*(b/q),t=p/b,u=p*(a/r),v=p/a,w=(b-h)/2;w=j?w*t:w;var x=(a-g)/2;x=j?x:x*v;var y,z,A=j?2*this.settings.friction*i:this.settings.friction*i;"horizontal"===this.settings.direction?(y=j?a+"px auto":"auto "+b+"px",z=x-u*A+"px 50%"):(y=j?"auto "+b+"px":a+"px auto",z="50% "+(s*A-w)+"px"),this.$background.css({"background-size":y,"background-position":z})}this.ticking=!1}}},b.defaults=c,a.fn.parallaxScroll=function(a){return this.each(function(){new b(this,a).init()})},b});
+    </script>
+   
+</body>
+
+
+</html>

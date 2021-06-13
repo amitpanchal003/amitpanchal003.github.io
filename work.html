@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+
+    <link rel="stylesheet" href="assets/css/modal-video.min.css">
+
+    <link rel="stylesheet" href="assets/fonts/flaticon.css">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Findo - Fundraising and Charity HTML Template</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <!-- <link rel="stylesheet" href="st.scss"> -->
+<!-- <style>
+     @import url("https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans+Condensed:300");
+.wrapper {
+  background-color: #42A5F5;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  font: normal 16px/26px Open Sans Condensed, sans-serif;
+  color: #fff;
+  padding: 100px 20px 200px;
+  box-sizing: border-box;
+}
+
+.block {
+  z-index: 1;
+  position: relative;
+}
+.block:before {
+  content: "";
+  position: absolute;
+  height: calc(100% - 40px);
+  width: 1px;
+  background-color: #f2f2f2;
+  left: 50%;
+  margin-top: 90px;
+}
+
+.title {
+  font: bold 42px/52px Open Sans Condensed, sans-serif;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.8s ease-in-out;
+}
+
+.each-event {
+  background-color: #f4f4f4;
+  color: #777;
+  padding: 15px;
+  margin: 60px 20px;
+  width: 300px;
+  position: relative;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+.each-event:before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 8px);
+  left: -27px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 20px -4px rgba(64, 64, 64, 0.8);
+}
+.each-event:nth-child(odd) {
+  margin-left: calc(50% + 20px);
+}
+.each-event:nth-child(even) {
+  margin-left: calc(50% - 321px);
+}
+.each-event:nth-child(even):before {
+  left: calc(100% + 14px);
+}
+
+.title.non-focus {
+  font-size: 24px;
+  line-height: 34px;
+  transition: all 0.8s ease-in-out;
+}
+
+.each-event.non-focus {
+  color: #d2d2d2;
+  background: #e6e6e6;
+  margin-top: 90px;
+  transform: rotateZ(45deg);
+  transition: all 0.8s ease-in-out;
+}
+.each-event.non-focus:before {
+  opacity: 0;
+  background-color: #aaa;
+}
+</style> -->
+
+<style>
+body {
+  background: #3b4262;
+  color: #ffffff;
+  font-family: arial, sans-serif;
+}
+
+.item {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.item .image {
+  padding: 1em 2em;
+}
+.item .image > div {
+  position: relative;
+  text-align: center;
+  font-size: 0.8em;
+}
+.item .image > div::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #232b50;
+  position: absolute;
+  top: 2.75em;
+  left: 2.5em;
+  z-index: -1;
+}
+.item .image img {
+  border-radius: 50%;
+  height: 5em;
+  border: 0.35em solid #5ed3bf;
+}
+.item .image span {
+  display: block;
+  clear: both;
+  padding: 0.25em 0;
+  margin: 0.5em 0;
+  background: #3b4262;
+}
+.item .details {
+  position: relative;
+  flex-grow: 1;
+}
+.item .details > div {
+  border: 1px solid #232b50;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  margin: 1em 0;
+}
+.item .details > div h1 {
+  color: #5ed3bf;
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0 0 0.5em 0;
+  letter-spacing: 0.1em;
+}
+.item .details > div p {
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+}
+.item .details::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  border-left: 1px solid #232b50;
+  position: absolute;
+  top: 0;
+  left: -4.35em;
+  z-index: -1;
+}
+</style> 
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="pre-box-one">
+                    <div class="pre-box-two"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+    <div class="navbar-area sticky-top">
+
+      <div class="mobile-nav">
+          <a href="index.html" class="logo">
+              <img src="assets/img/stree-adhar-kenrda-logo.png" alt="stree adhar kendra">
+          </a>
+      </div>
+
+      <div class="main-nav">
+          <div class="container">
+              <nav class="navbar navbar-expand-md navbar-light">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="assets/img/stree-adhar-kenrda-logo.png" alt="stree adhar kendra">
+                  </a>
+                  <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a href="index.html" class="nav-link  active">मुखपृष्ठ
+                     
+                                      </a>
+                              
+                          </li>
+                          <li class="nav-item">
+                              <a href="history.html" class="nav-link dropdown-toggle">
+                                  आमच्याबद्दल
+                               <i
+                                      class="icofont-simple-down"></i></a>
+                              <ul class="dropdown-menu">
+                                 
+                                  <li class="nav-item">
+                                      <a href="history.html" class="nav-link">इतिहास</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="history.html" class="nav-link">सर्वांसाठी समानता न्याय</a>
+                                  </li>
+                                 
+                                  
+                              </ul>
+                          </li>
+                          <li class="nav-item">
+                              <a href="work.html" class="nav-link dropdown-toggle">
+                                  कार्यक्रम
+                               <i
+                                      class="icofont-simple-down"></i></a>
+                              <ul class="dropdown-menu">
+                                 
+                                  <li class="nav-item">
+                                      <a href="work.html" class="nav-link">स्त्री शोषणाविरुद्ध आवाज</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="work.html" class="nav-link">स्त्रियांना मुख्य प्रवाहात आणणं</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="work.html" class="nav-link">आपतग्रस्त महिलांसाठी विशेष सहकार्य</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a href="work.html" class="nav-link">महिला सक्षमीकरण</a>
+                                  </li>
+                                  
+                                 
+                                  
+                              </ul>
+                          </li>
+                          <li class="nav-item">
+                              <a href="amchi-prakashane.html" class="nav-link dropdown-toggle"> आमची प्रकाशने 
+                                     </a>
+                              
+                          </li>
+                          <li class="nav-item">
+                              <a href="prakalp.html" class="nav-link dropdown-toggle">प्रकल्प <i
+                                      class="#"></i></a>
+                              
+                          </li>
+                          <li class="nav-item">
+                              <a href="avahan.html" class="nav-link dropdown-toggle">आव्हान <i
+                                      class="#"></i></a>
+                              
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-link">संपर्क साधा</a>
+                          </li>
+                      </ul>
+                     
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </div>
+
+    
+
+        <div class="item" style="padding-top: 10%;">
+            <div class="image">
+              <div>
+                <img src="assets/img/about/womenright.jpg" />
+                <span>
+                09.12.2016
+                </span>
+              </div>
+            </div>
+            <div class="details">
+              <div>
+                <h1>स्त्री शोषणाविरुद्ध आवाज</h1>
+                <p>
+                    बीजिंगमधल्या चौथ्या आंतरराष्ट्रीय महिला परिषदेत स्त्रीशोषणाची जी व्याख्या केली, त्यातल्या प्रत्येक मुद्द्याला ग्राह्य धरून स्त्री आधार केंद्र महिलांच्या शोषणाविरोधात आवाज उठवण्याच काम करत आलेलं आहे. या व्याखेप्रमाणे स्त्रीशोषणामध्ये खाजगी किंवा सार्वजनिक ठिकाणी स्त्रियांवर लिंगभेदामुळे केला जाणारा कोणत्याही प्रकारचा शारीरिक किंवा मानसिक अत्याचार, प्रत्यक्ष अत्याचार अथवा त्याचा धाक दाखवाणं, कोणत्याही प्रकारची जबरदस्ती करणं, स्वतंत्र हिरावून घेण याचा समावेश होतो.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="image">
+              <div>
+                <img src="assets/img/about/women-power_41910-397.jpg" />
+                <span>
+                08.12.2016
+                </span>
+              </div>
+            </div>
+            <div class="details">
+              <div>
+                <h1>स्त्रियांना मुख्य प्रवाहात आणणं</h1>
+                <p>
+                    स्त्रियांचे प्रश्न हे सा-या समाजाचे प्रश्न आहेत, त्यांना मुख्य प्रवाहात आणून त्यांच्यावर उपाययोजना करणं याचा स्त्री आधार केंद्रान सतत आग्रह धरला आहे. संपूर्ण देशाची धोरणं ठरवताना त्यात या प्रश्नांचा विचार झालाच पाहिजे. कोणत्याही देशानं राष्ट्रीय अथवा आंतरराष्ट्रीय पातळीवर आपली विकसनशील धोरणं आखताना स्त्रियांच्या समस्या लक्षात घेऊनच ती आखली पाहिजेत. स्त्रियांचे प्रश्न स्वतंत्रपणे न हाताळता राजनीतीच्या मुख्य प्रवाहामध्ये या प्रश्नावर विचार व्हावा हि स्त्री आधार केंद्राची मुख्य भूमिका आहे.
+
+विकासाची धोरणं आखताना विशेष लक्ष देण गरजेच आहे. तसेच शक्य तितक्या व्यापक प्रमाणावर हि धोरणं राबवल्यास त्याचा फायदा जास्तीत जास्त महिलांना मिळेल. मुलभूत विकास संस्था आणि ही विकसनशील धोरणं त्यांच्यातील अंतर कमी करण्याच्या दृष्टीने आणि त्यांच्यातील समन्वय साधण्यासाठी स्त्री आधार केंद्रासारख्या संस्था योग्य ती भूमिका बाजू शकतात. त्यामुळेच महाराष्ट्र शासनाच्या महिलाविषयक धोरणनिर्मितीत स्त्री आधार केंद्राचा महत्त्वपूर्ण सहभाग आहे.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="image">
+              <div>
+                <img src="assets/img/about/lady-out-shopping-19740992.jpg" />
+                <span>
+                07.12.2016
+                </span>
+              </div>
+            </div>
+            <div class="details">
+              <div>
+                <h1>आपतग्रस्त महिलांसाठी विशेष सहकार्य</h1>
+                <p>
+                    नैसर्गिक किंवा मनुष्यनिर्मित संकट ओढवतात; अशा वेळीदेखील त्यात अडकलेल्या महिलांना विशेष मदत पुरवण्याचं काम स्त्री आधार केंद्र करत आलेल आहे. १९९३ साली महाराष्ट्रात झालेल्या भीषण भूकंपाच्या वेळीही केंद्राने तेथील महिलांना इतर मदतीबरोबरच मानसिक आधारही देण्याचं काम केलं. संकटग्रस्त महिलांच्या पुनर्वसन आणि सक्षमीकरणाच्या कामामध्ये केंद्राचा नेहमीच पुढाकार असतो.
+
+गुजरातमधल्या भुकंपानंतरही त्या भागातल्या १३ गावांमधल्या महिलांना सर्वतोपरी सहकार्य देण्याचं काम केंद्रानं केलं आहे. त्यामध्ये कायदेशीर सल्ला, मानसिक आधार देण्यासाठी समुपदेशन याही गोष्टींचा समावेश होता. सरकारी मदतीत कुठेही महिलांवर अन्याय होणार नाही, त्यांचे हक्क सुरक्षित राहतील याकडे केंद्रानं कटाक्षानं लक्ष दिलं.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <div>
+                <img src="http://lorempixel.com/400/400/people/8/" />
+                <span>
+                07.12.2016
+                </span>
+              </div>
+            </div>
+            <div class="details">
+              <div>
+                <h1>महिला सक्षमीकरण</h1>
+                <p>
+                    महिलांनमधल्या क्षमता ओळखून त्या विकसित करण्यासाठी स्त्री आधार केंद्रानं महाराष्ट्रातील १० जिल्ह्यांमध्ये महिला विकास मंचाची स्थापना केली आहे. स्थानिक पातळीवर महिलांना संघटीत करून स्थानिक पातळीवरचे त्यांचे प्रश्न सोडवण्यासाठी हे मंच काम करतात. या मंचामध्ये महिला आपले विचार, मतं मोकळेपणानं व्यक्त करू शकतात. याशिवाय सरकारी योजना आणि धोरणं यांची माहितीही या मंचामार्फत दिली जाते. त्याचा लाभ कसा घ्यावा याचंही प्रशिक्षण दिलं जातं. यातून काही महिलांमधील नेतृत्तवगुण हेरून त्यांचा निर्णय प्रक्रियेत आणि स्थानिक राजकारणात सहभागी केलं जातं.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+
+
+   
+     
+  
+
+
+     
+   
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+    
+
+
+   
+
+
+    
+
+
+          <footer class="footer-area pt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="footer-item">
+                            <div class="footer-logo">
+                                <a class="logo" href="index.html">
+                                    <img src="assets/img/stree-adhar-kenrda-logo.png" alt="Logo">
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero, magni est placeat
+                                    neque, repellat maxime a dolore</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <i class="icofont-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <i class="icofont-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <i class="icofont-youtube-play"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <i class="icofont-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                       
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="footer-item">
+                            <div class="footer-links">
+                                <h3>Quick links</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icofont-simple-right"></i>
+                                            आमच्याबद्दल
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icofont-simple-right"></i>
+                                            कार्यक्रम
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icofont-simple-right"></i>
+                                            आमची प्रकाशने
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icofont-simple-right"></i>
+                                            प्रकल्प
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icofont-simple-right"></i>
+                                            आव्हान
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="footer-item">
+                            <div class="footer-contact">
+                                <h3>Contact info</h3>
+                                <div class="contact-inner">
+                                    <ul>
+                                        <li>
+                                            <i class="icofont-location-pin"></i>
+                                            <a href="#">स. नं. १४, घर नं. १४५/१, गणेश नगर, माहेरवाट आश्रमाजवळ,
+                                                वडगाव धायरी, पुणे - ४११०४१ महाराष्ट्र (भारत)</a>
+                                        </li>
+                                        <li>
+                                            <i class="icofont-ui-call"></i>
+                                            <a href="#">०२० - २४३९४१०४</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="contact-inner">
+                                    <ul>
+                                        <li>
+                                            <i class="icofont-location-pin"></i>
+                                            <a href="#">6A, New street, Spain</a>
+                                        </li>
+                                        <li>
+                                            <i class="icofont-ui-call"></i>
+                                            <a href="tel:+548658956">+548-658-956</a>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area">
+                    <p>Copyright ©2021. Designed By <a href="#" target="_blank">Demonstar</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+    <div class="go-top">
+        <i class="icofont-arrow-up"></i>
+        <i class="icofont-arrow-up"></i>
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/form-validator.min.js"></script>
+
+    <script src="assets/js/contact-form-script.js"></script>
+
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <script src="assets/js/jquery.meanmenu.js"></script>
+
+    <script src="assets/js/jquery-modal-video.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/lightbox.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+   
+</body>
+
+
+</html>
